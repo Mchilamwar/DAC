@@ -1,0 +1,15 @@
+// Git Configuration
+
+git config --global user.name "Vipul Tembulwar"
+git config --global user.email " "
+git config --global --edit
+
+// Commands
+
+git init // to initialize git
+
+git status // to see the status of repository
+
+git add . // to add all files in current directory for tracking
+
+git commit - m "Mesasage"  // Commit changes
