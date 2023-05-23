@@ -6,10 +6,23 @@ git config --global --edit
 
 // Commands
 
-git init // to initialize git
+git init 		// to initialize git
 
-git status // to see the status of repository
+git status 		// to see the status of repository
 
-git add . // to add all files in current directory for tracking
+git add .		// to add all files in current directory for tracking (Stage_File)
+	
+git add  <filename>  	// stage particular file with name (Stage file)
 
-git commit - m "Mesasage"  // Commit changes
+git restore --staged <file_Name> 	// (Unstage the File)
+
+git commit - m "Message"  		// Commit changes
+
+------------------------------------------------------------------
+Git Flow :- 
+
+Working     -------------> 	Stage	-------------> Local Repository 
+Ditrectory 	(git add) 	Area	  (git commit)
+
+
+------------------------------------------------------------------
