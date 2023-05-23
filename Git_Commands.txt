@@ -1,7 +1,7 @@
 // Git Configuration
 
-git config --global user.name "Vipul Tembulwar"
-git config --global user.email " "
+git config --global user.name "Mhilamwar"
+git config --global user.email "mchilamwar@gmail.com"
 git config --global --edit
 
 // Commands
@@ -26,3 +26,34 @@ Ditrectory 	(git add) 	Area	  (git commit)
 
 
 ------------------------------------------------------------------
+
+
+git log   		  // to see the commit logs
+
+git checkout <log_id>     // to Switch to the previous commit log / Branch
+
+git checkout master       // Come back to master branch
+
+git branch -M main        // Change Branche name to main
+
+git remote add origin https://github.com/Mchilamwar/DAC.git  // Add remote Git hub repo
+
+git push -u or -uf origin // Push to the origin  													
+
+-------------------------------------------------------------------
+
+# Branch 
+
+git branch b1    	   // Create Branch
+
+git checkout b1		   // Select branch b1 for oprations
+
+git push -u b1		   // push branch to github 
+
+(Create Pull request --> Check Conflict & Resolve Conflict --> Merge Request)
+
+-------------------------------------------------------------------
+
+
+
+
