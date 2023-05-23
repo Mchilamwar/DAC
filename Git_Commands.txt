@@ -48,8 +48,16 @@ git branch b1    	   // Create Branch
 
 git checkout b1		   // Select branch b1 for oprations
 
+<<<<<<< HEAD
 
 
+=======
+git push -u b1		   // push branch to github 
+
+(Create Pull request --> Check Conflict & Resolve Conflict --> Merge Request)
+
+-------------------------------------------------------------------
+>>>>>>> main
 
 
 
